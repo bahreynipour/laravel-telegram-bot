@@ -1,5 +1,5 @@
 {
-    "name": "php-telegram-bot/laravel",
+    "name": "bahreynipour/aravel-telegram-bot",
     "description": "Integrates PHP Telegram Bot into Laravel.",
     "license": "MIT",
     "authors": [
