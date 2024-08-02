@@ -74,8 +74,9 @@ class TelegramFetchCommand extends Command implements SignalableCommandInterface
         return [SIGINT];
     }
 
-    public function handleSignal(int $signal): void
+    public function handleSignal(int $signal, int|false $previousExitCode = 0): false|int
     {
         $this->shallExit = true;
+        return false;
     }
 }
