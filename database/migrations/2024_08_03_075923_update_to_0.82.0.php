@@ -10,7 +10,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        DB::unprepared(file_get_contents(__DIR__ . '/sql/0.80.0-0.82.0.sql'));
+        DB::unprepared(file_get_contents(__DIR__ . '/sql/0.81.0-0.82.0.sql'));
     }
 
     /**
